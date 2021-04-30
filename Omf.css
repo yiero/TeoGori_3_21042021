@@ -1,0 +1,13 @@
+html {
+    width: 375px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
