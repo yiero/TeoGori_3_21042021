@@ -1,8 +1,13 @@
 html {
     width: 375px;
-    text-align: center;
 }
 
+header {
+    text-align: center;
+}
+main {
+    background-color: rgb(228, 228, 228);
+}
 img {
     width: 100%;
 }
@@ -10,4 +15,36 @@ img {
 ul {
     list-style-type: none;
     padding-left: 0px;
+}
+#Restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carte1 {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: 2px 2px 15px grey;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.imagesrestaurants {
+    width: auto;
+    text-align: center;
+    height: 160px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.nomrestaurant {
+    justify-content: flex-end;
+    margin-left: 20px;
+    line-height: 0.3em;
+    padding: 5px 0px 5px 0px;
 }
