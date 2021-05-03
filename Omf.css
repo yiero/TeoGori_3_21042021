@@ -1,5 +1,11 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(Font/Roboto-Medium.ttf);
+}
+
 html {
     width: 375px;
+    font-family: "Roboto";
 }
 
 header {
