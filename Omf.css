@@ -3,25 +3,28 @@
     src: url(Font/Roboto-Medium.ttf);
 }
 
+@font-face {
+    font-family: "Corben";
+    src: url(Font/corben/Corben-Bold.ttf);
+}
+
 html {
     width: 375px;
-    font-family: "Roboto";
+    
 }
 
 header {
     text-align: center;
+    font-family: "Roboto";
 }
 main {
-    background-color: rgb(228, 228, 228);
+    background-color: #F6F6F6;
+    font-family: "Roboto";
 }
 img {
     width: 100%;
 }
 
-ul {
-    list-style-type: none;
-    padding-left: 0px;
-}
 #Restaurants {
     display: flex;
     flex-wrap: wrap;
@@ -53,4 +56,35 @@ ul {
     margin-left: 20px;
     line-height: 0.3em;
     padding: 5px 0px 5px 0px;
+}
+
+footer {
+    background-color: #353535;
+    color: white;
+    
+}
+
+#titrefooter {
+    font-family: "Corben"; 
+    font-style: italic;
+    padding-top: 20px;
+    margin-left: 15px;
+}
+
+ul {
+    line-height: 2em;
+    margin: 20px 0px 0px 20px;
+    padding-bottom: 30px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-family: "Roboto";
+}
+
+.listelogo {
+    margin-left: 10px;
+}
+
+#logofooter {
+    margin-right: 10px;
+    margin-left: -10px;
 }
