@@ -19,20 +19,48 @@ body {
 #Reservation {
     text-align: center;
     margin: 10px 0px 60px 0px;
-    padding-bottom: 50px;
 }
 .logooff {
     width: 200px;
     height: 30px;
 }
-
+#localisation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+#lieu {
+    display: flex;
+    justify-content: center;
+    background-color: #EAEAEA;
+}
+#introduction {
+    background-color: #F6F6F6;
+    margin-top: 0px;
+    padding: 20px 0px 25px 0px;
+}
+#phraseintro {
+    color: #4D4D4D;
+}
+.search {
+    background-color: #D96DDA;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-family: "Roboto";
+    width: 200px;
+    height: 45px;
+    box-shadow: 0px 8px 12px grey;
+}
 header {
     font-family: "Roboto";
     padding-bottom: 50px;
 }
 
 #titrenav {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 nav {
@@ -49,6 +77,7 @@ nav {
     height: 60px;
     align-items: center;
     margin-bottom: 30px;
+    background-color: #F6F6F6;
     
 }
 
