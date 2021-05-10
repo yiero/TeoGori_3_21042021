@@ -9,11 +9,11 @@
 }
 
 html {
-    width: 375px;
+    max-width: 450px;
 }
 
 body {
-    margin: 0px;
+    margin: auto;
 }
 
 #Reservation {
@@ -38,7 +38,8 @@ header {
 nav {
     margin-left: 20px;
     justify-content: center;
-    width: 90%;    
+    margin-right: 20px;
+        
 }
 .menu {
     display: flex;
