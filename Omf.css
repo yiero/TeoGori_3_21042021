@@ -16,7 +16,7 @@ body {
     margin: auto;
 }
 
-#Reservation {
+#header {
     text-align: center;
     margin: 10px 0px 60px 0px;
 }
@@ -118,7 +118,7 @@ main {
 }
 
 .imagesrestaurants {
-    width: auto;
+    width: 356px;
     text-align: center;
     height: 180px;
     object-fit: cover;
@@ -164,3 +164,8 @@ ul {
     margin-left: -10px;
 }
 
+.imagemenu1 {
+    width: 375px;
+    height: 220px;
+    object-fit: cover;
+}
