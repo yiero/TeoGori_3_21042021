@@ -8,10 +8,6 @@
     src: url(Font/corben/Corben-Bold.ttf);
 }
 
-html {
-    max-width: 450px;
-}
-
 body {
     margin: auto;
 }
@@ -213,10 +209,17 @@ h3 {
 }
 
 #titremenu1 {
-    margin-left: 20px;
     padding-top: 20px;
     font-family: "corben";
     font-style: italic;
+    display: flex;
+    justify-content: space-around;
+}
+
+#interactmenu1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .search1 {
