@@ -1,0 +1,22 @@
+{
+  "name": "p3ohmyfood",
+  "version": "1.0.0",
+  "description": "Sass_OhMyFood",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./Omf.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yiero/TeoGori_3_21042021.git"
+  },
+  "keywords": [
+    "Omf"
+  ],
+  "author": "Teo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yiero/TeoGori_3_21042021/issues"
+  },
+  "homepage": "https://github.com/yiero/TeoGori_3_21042021#readme"
+}
