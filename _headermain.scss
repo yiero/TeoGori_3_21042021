@@ -37,7 +37,7 @@
     font-family: "Roboto";
     width: 200px;
     height: 45px;
-    @include box-shadow;
+    @include header-shadow;
 }
 header {
     font-family: "Roboto";
