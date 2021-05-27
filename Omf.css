@@ -1,3 +1,15 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(Font/Roboto-Medium.ttf);
+}
 
+@font-face {
+    font-family: "Corben";
+    src: url(Font/corben/Corben-Bold.ttf);
+}
+
+body {
+    margin: auto;
+}
 
 /*# sourceMappingURL=Omf.css.map */

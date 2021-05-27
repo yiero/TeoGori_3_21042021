@@ -1,0 +1,71 @@
+@import "variables";
+
+
+#header {
+    text-align: center;
+    margin: 10px 0px 60px 0px;
+}
+.logooff {
+    width: 200px;
+    height: 30px;
+}
+#localisation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+#lieu {
+    display: flex;
+    justify-content: center;
+    background-color: $head-background-color;
+}
+#introduction {
+    background-color: $primary-background-color;
+    margin-top: 0px;
+    padding: 20px 0px 25px 0px;
+}
+#phraseintro {
+    color: $secondary-color;
+}
+.search {
+    background-color: $btn-color;
+    border: none;
+    color: $primary-color;
+    border-radius: 20px;
+    font-family: "Roboto";
+    width: 200px;
+    height: 45px;
+    @include box-shadow;
+}
+header {
+    font-family: "Roboto";
+    padding-bottom: 50px;
+}
+#titrenav {
+    margin-left: 30px;
+}
+nav {
+    margin-left: 20px;
+    justify-content: center;
+    margin-right: 20px;
+        
+}
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 20px;
+    height: 60px;
+    align-items: center;
+    margin-bottom: 30px;
+    @include nav-shadow;
+    background-color: $primary-background-color;
+}
+#logomenu {
+    color: $logo-color;
+    margin-left: 40px;
+}
+.txtmenu {
+    margin-left: 30px;
+}
