@@ -37,7 +37,7 @@
     font-family: "Roboto";
     width: 200px;
     height: 45px;
-    @include header-shadow;
+    
 }
 header {
     font-family: "Roboto";
@@ -49,9 +49,9 @@ header {
 nav {
     margin-left: 20px;
     justify-content: center;
-    margin-right: 20px;
-        
+    margin-right: 20px;    
 }
+
 .menu {
     display: flex;
     justify-content: flex-start;

@@ -1,18 +1,236 @@
-/* Error: Undefined mixin.
- *    ,
- * 40 |     @include header-shadow;
- *    |     ^^^^^^^^^^^^^^^^^^^^^^
- *    '
- *   pages\_headermain.scss 40:5  @import
- *   main.scss 4:9                root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a    \2577 \a 40 \2502      @include header-shadow;\d\a    \2502      ^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   pages\\_headermain.scss 40:5  @import\a   main.scss 4:9                root stylesheet";
+#header {
+  text-align: center;
+  margin: 10px 0px 60px 0px;
 }
+
+.logooff {
+  width: 200px;
+  height: 30px;
+}
+
+#localisation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+#lieu {
+  display: flex;
+  justify-content: center;
+  background-color: #EAEAEA;
+}
+
+#introduction {
+  background-color: #F6F6F6;
+  margin-top: 0px;
+  padding: 20px 0px 25px 0px;
+}
+
+#phraseintro {
+  color: #4D4D4D;
+}
+
+.search {
+  background-color: #D96DDA;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  font-family: "Roboto";
+  width: 200px;
+  height: 45px;
+}
+
+header {
+  font-family: "Roboto";
+  padding-bottom: 50px;
+}
+
+#titrenav {
+  margin-left: 30px;
+}
+
+nav {
+  margin-left: 20px;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 20px;
+  height: 60px;
+  align-items: center;
+  margin-bottom: 30px;
+  box-shadow: 0px 7px 3px #f2f2f2;
+  background-color: #F6F6F6;
+}
+
+#logomenu {
+  color: grey;
+  margin-left: 40px;
+}
+
+.txtmenu {
+  margin-left: 30px;
+}
+
+.imagemenu1 {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  position: relative;
+}
+
+#header1 {
+  text-align: center;
+  margin-bottom: -35px;
+  margin-top: 20px;
+}
+
+main {
+  background-color: #F6F6F6;
+  font-family: "Roboto";
+}
+
+#Restaurants {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#Titremain {
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.carte1 {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  box-shadow: 2px 2px 15px grey;
+  border-radius: 20px;
+  background-color: white;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.imagesrestaurants {
+  width: 100%;
+  text-align: center;
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.nomrestaurant {
+  justify-content: flex-end;
+  margin-left: 20px;
+  line-height: 0.3em;
+  padding: 5px 0px 5px 0px;
+}
+
+span.dimensionimages {
+  width: auto;
+}
+
+#cartemenu1 {
+  background-color: #F6F6F6;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.lemenu {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  line-height: 0.6em;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 15px grey;
+}
+
+.prix {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 20px;
+}
+
+.platcompo {
+  margin-left: 20px;
+}
+
+h3 {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+#titremenu1 {
+  padding-top: 20px;
+  font-family: "corben";
+  font-style: italic;
+  display: flex;
+  justify-content: space-around;
+}
+
+#interactmenu1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search1 {
+  display: block;
+  margin: auto;
+  background-color: #D96DDA;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  font-family: "Roboto";
+  width: 200px;
+  height: 45px;
+  box-shadow: 0px 8px 12px grey;
+}
+
+footer {
+  background-color: #353535;
+  color: white;
+}
+
+#titrefooter {
+  font-family: "Corben";
+  font-style: italic;
+  padding-top: 20px;
+  margin-left: 15px;
+}
+
+ul {
+  line-height: 2em;
+  margin: 20px 0px 0px 20px;
+  padding-bottom: 30px;
+  list-style-type: none;
+  padding-left: 0px;
+  font-family: "Roboto";
+}
+
+.listelogo {
+  margin-left: 10px;
+}
+
+#logofooter {
+  margin-right: 10px;
+  margin-left: -10px;
+}
+
+#footer1 {
+  background-color: #353535;
+  color: white;
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=Omf.css.map */
