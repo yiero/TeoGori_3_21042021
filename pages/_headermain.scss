@@ -1,6 +1,17 @@
 @import "../utils/variables";
+@font-face {
+    font-family: "Roboto";
+    src: url(Font/Roboto-Medium.ttf);
+}
 
+@font-face {
+    font-family: "Corben";
+    src: url(Font/corben/Corben-Bold.ttf);
+}
 
+body {
+    margin: auto;
+}
 #header {
     text-align: center;
     margin: 10px 0px 60px 0px;
@@ -37,7 +48,7 @@
     font-family: "Roboto";
     width: 200px;
     height: 45px;
-    
+    box-shadow: 0px 8px 12px grey;
 }
 header {
     font-family: "Roboto";
@@ -59,7 +70,7 @@ nav {
     height: 60px;
     align-items: center;
     margin-bottom: 30px;
-    @include nav-shadow;
+    box-shadow: 0px 7px 3px #f2f2f2;
     background-color: $primary-background-color;
 }
 #logomenu {

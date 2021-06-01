@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(Font/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: "Corben";
+  src: url(Font/corben/Corben-Bold.ttf);
+}
+body {
+  margin: auto;
+}
+
 #header {
   text-align: center;
   margin: 10px 0px 60px 0px;
@@ -40,6 +52,7 @@
   font-family: "Roboto";
   width: 200px;
   height: 45px;
+  box-shadow: 0px 8px 12px grey;
 }
 
 header {
