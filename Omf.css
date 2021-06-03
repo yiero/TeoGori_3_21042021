@@ -169,11 +169,22 @@ span.dimensionimages {
   border-radius: 20px;
   box-shadow: 2px 2px 15px grey;
 }
+.lemenu:hover > .prix {
+  transform: translateX(-50px);
+}
+.lemenu:hover > .prix > p {
+  transform: rotate(0deg);
+}
 
 .prix {
   display: flex;
   align-items: flex-end;
   margin-right: 20px;
+  transition: transform 330ms ease-in-out;
+}
+.prix p {
+  transform: rotate(360deg);
+  transition: transform 500ms ease-in-out;
 }
 
 .platcompo {
