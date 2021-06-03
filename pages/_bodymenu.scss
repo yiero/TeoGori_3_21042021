@@ -30,11 +30,15 @@
     p {
         transform: rotate(360deg);
         transition: transform 500ms ease-in-out;
+        font-weight: bold;
     }
 }
 
 .platcompo {
     margin-left: 20px;
+    span {
+        font-weight: bold;
+    }
 }
 
 
