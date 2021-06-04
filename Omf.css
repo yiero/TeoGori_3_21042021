@@ -169,11 +169,21 @@ span.dimensionimages {
   border-radius: 20px;
   box-shadow: 2px 2px 15px grey;
 }
-.lemenu:hover > .prix {
+.lemenu:hover > .prixcheck > .prix > p {
   transform: translateX(-50px);
 }
-.lemenu:hover > .prix > p {
+.lemenu:hover > .prixcheck > .check {
+  background-color: rgba(0, 252, 134, 0.849);
+  opacity: 1;
+  transform: translateX(-50px);
+}
+.lemenu:hover > .prixcheck > .check > i {
   transform: rotate(0deg);
+}
+
+.prixcheck {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .prix {
@@ -183,7 +193,6 @@ span.dimensionimages {
   transition: transform 330ms ease-in-out;
 }
 .prix p {
-  transform: rotate(360deg);
   transition: transform 500ms ease-in-out;
   font-weight: bold;
 }
@@ -193,6 +202,19 @@ span.dimensionimages {
 }
 .platcompo span {
   font-weight: bold;
+}
+
+.check {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  opacity: 0;
+  transition: transform 330ms ease-in-out;
+  width: 50px;
+}
+.check i {
+  transform: rotate(360deg);
+  transition: transform 500ms ease-in-out;
 }
 
 h3 {

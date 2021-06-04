@@ -7,12 +7,19 @@
 }
 
 .lemenu {
-    &:hover > .prix {
+    &:hover > .prixcheck > .prix {
         & > p {
+            transform: translateX(-50px); 
+        }
+       }
+    &:hover > .prixcheck > .check {
+        background-color: rgba(0, 252, 134, 0.849);
+        opacity: 1;
+        transform: translateX(-50px);
+        & > i {
             transform: rotate(0deg);
         }
-        transform: translateX(-50px); 
-       }
+    }
     display: flex;
     justify-content: space-between;
     margin: 20px;
@@ -21,14 +28,16 @@
     border-radius: 20px;
     box-shadow: 2px 2px 15px grey;
 }
-
+.prixcheck {
+    display: flex;
+    justify-content: flex-end;
+}
 .prix {
     display: flex;
     align-items: flex-end;
     margin-right: 20px;
     transition: transform 330ms ease-in-out;
     p {
-        transform: rotate(360deg);
         transition: transform 500ms ease-in-out;
         font-weight: bold;
     }
@@ -38,6 +47,19 @@
     margin-left: 20px;
     span {
         font-weight: bold;
+    }
+}
+
+.check {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 0;
+    transition: transform 330ms ease-in-out;
+    width: 50px;
+    i {
+        transform: rotate(360deg);
+        transition: transform 500ms ease-in-out;
     }
 }
 
