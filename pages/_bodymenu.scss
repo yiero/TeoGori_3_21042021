@@ -13,7 +13,7 @@
         }
        }
     &:hover > .prixcheck > .check {
-        background-color: rgba(0, 252, 134, 0.849);
+        background-color: #99E2D0;
         opacity: 1;
         transform: translateX(-50px) scale(1);
         & > i {
@@ -75,8 +75,7 @@ h3 {
 
 #titremenu1 {
     padding-top: 20px;
-    font-family: "corben";
-    font-style: italic;
+    font-family: "shrikhand";
     display: flex;
     justify-content: space-around;
 }
