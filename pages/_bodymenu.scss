@@ -1,3 +1,5 @@
+@import "../utils/variables";
+
 #cartemenu1 {
     background-color: #F6F6F6;
     margin-bottom: 20px;
@@ -13,7 +15,7 @@
         }
        }
     &:hover > .prixcheck > .check {
-        background-color: #99E2D0;
+        background-color: $tertary-color;
         opacity: 1;
         transform: translateX(-50px) scale(1);
         & > i {
@@ -76,6 +78,7 @@ h3 {
 #titremenu1 {
     padding-top: 20px;
     font-family: "shrikhand";
+
     display: flex;
     justify-content: space-around;
 }
@@ -89,7 +92,7 @@ h3 {
 .search1 {
     display: block;
     margin: auto;
-    background-color: #D96DDA;
+    background: linear-gradient(to bottom right, $secondary-color, $primary-color);
     border: none;
     color: white;
     border-radius: 20px;

@@ -38,12 +38,12 @@ body {
     padding: 20px 0px 25px 0px;
 }
 #phraseintro {
-    color: $secondary-color;
+    color: grey;
 }
 .search {
-    background-color: $btn-color;
+    background: linear-gradient(to bottom right, $secondary-color, $primary-color);
     border: none;
-    color: $primary-color;
+    color: white;
     border-radius: 20px;
     font-family: "Roboto";
     width: 200px;
@@ -65,7 +65,7 @@ nav {
 
 .menu {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     border-radius: 20px;
     height: 60px;
     align-items: center;
@@ -75,7 +75,7 @@ nav {
 }
 #logomenu {
     color: $logo-color;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 .txtmenu {
     margin-left: 30px;
