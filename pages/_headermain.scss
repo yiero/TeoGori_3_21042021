@@ -60,11 +60,15 @@ header {
 nav {
     margin-left: 20px;
     justify-content: center;
-    margin-right: 20px;    
+    margin-right: 20px;  
+    flex-wrap: wrap; 
 }
-
+#nav {
+    display: flex;
+    justify-content: center;
+}
 .menu {
-    max-width: 400px;
+    max-width: 350px;
     display: flex;
     justify-content: flex-start;
     border-radius: 20px;
