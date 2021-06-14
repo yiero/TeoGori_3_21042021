@@ -18,13 +18,14 @@
     box-shadow: 2px 2px 10px 1px grey;
     &:hover > .prixcheck > .prix {
         & > p {
-            transform: translateX(-50px); 
+            transform: translateX(-40px); 
         }
        }
     &:hover > .prixcheck > .check {
         background-color: $tertary-color;
         opacity: 1;
-        transform: translateX(-50px) scale(1);
+        transform-origin: right 50%;
+        transform: scaleX(3);
         & > i {
             transform: rotate(0deg);
         }
@@ -48,23 +49,23 @@
     display: flex;
     align-items: flex-end;
     transition: transform 330ms ease-in-out;
-    margin-right: 20px;
+    margin-right: 10px;
     p {
         transition: transform 300ms ease-in-out;
         font-weight: bold;
     }
 }
 .check {
+    border-radius: 0px 8px 8px 0px;
     justify-content: center;
     align-items: center;
     display: flex;
-    transform: scale(0.1);
     opacity: 0;
     transition: transform 330ms ease-in-out;
     overflow: hidden;
     i {
-        transform: rotate(360deg);
-        transition: transform 500ms ease-in-out;
+        transform: rotate(360deg) scaleX(1);
+        transition: transform 300ms ease-in-out;
         color: white;
     }
 }
