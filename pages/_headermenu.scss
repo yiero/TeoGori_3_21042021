@@ -2,14 +2,14 @@
 
 #headerflex {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 20px;
 }
 #btn-back{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -100px;
+    margin-left: 20px;
     &:hover #btn {
         cursor: pointer;
         & > i {
@@ -17,13 +17,23 @@
         }
     }
 }
+
 #btn {
     font-size: 2em;
     color: grey;
 }
-#header1 {
-    margin-left: -220px;
+
+#btn-next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#btn2 {
+    font-size: 2em;
+    color: white;
+}
+
 .imagemenu1 {
     width: 100%;
     height: 220px;
