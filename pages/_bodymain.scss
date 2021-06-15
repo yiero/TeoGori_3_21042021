@@ -33,11 +33,13 @@ nav {
     align-items: center;
     margin-bottom: 30px;
     padding-right: 10px;
-    box-shadow: 0px 4px 8px 6px #f2f2f2;
+    box-shadow: 0px 4px 8px 6px #EAEAEA;
     background-color: $primary-background-color;
     position: relative;
     &:hover {
+        cursor: pointer;
         background-color: $secondary-color-lighten;
+        box-shadow: 0px 4px 8px 20px #EAEAEA;
         & > .navigation > #logomenu {
             color: $primary-color;
         }
@@ -122,12 +124,39 @@ nav {
     align-items: center;
     margin-right: 30px;
     font-size: 1.5em; 
+    position: relative;
+    right: 20px;
     &:hover {
-        & > i {
-            color: $primary-color;
+        cursor: pointer;
+        & > #coeurvide {
+            -webkit-text-fill-color: transparent;
+        }
+        & > #coeurplein > .fas { 
+            -webkit-text-fill-color: $primary-color;
         }
     } 
 }
+
+#coeurvide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#coeurplein {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .fas {
+        font-size: 1em;
+        color: $primary-color;
+        background: -webkit-linear-gradient(to bottom right, $secondary-color, $primary-color);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
 .nomrestaurant {
     justify-content: flex-end;
     margin-left: 20px;
