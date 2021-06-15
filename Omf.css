@@ -381,10 +381,18 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  right: 20px;
   font-size: 1.5em;
 }
 #interactmenu1:hover {
-  color: #9356DC;
+  cursor: pointer;
+}
+#interactmenu1:hover > #coeurvide {
+  -webkit-text-fill-color: transparent;
+}
+#interactmenu1:hover > #coeurplein > .fas {
+  -webkit-text-fill-color: #9356DC;
 }
 
 .search1 {

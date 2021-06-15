@@ -87,9 +87,17 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    right: 20px;
     font-size: 1.5em;
     &:hover {
-        color: $primary-color;
+        cursor: pointer;
+        & > #coeurvide {
+            -webkit-text-fill-color: transparent;
+        }
+        & > #coeurplein > .fas {
+            -webkit-text-fill-color: $primary-color;
+        }
     }
 }
 
