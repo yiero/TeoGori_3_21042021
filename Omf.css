@@ -314,6 +314,9 @@ span.dimensionimages {
   border-radius: 20px;
   box-shadow: 2px 2px 10px 1px grey;
 }
+.lemenu:hover {
+  cursor: pointer;
+}
 .lemenu:hover > .prixcheck > .prix > p {
   transform: translateX(-40px);
 }
