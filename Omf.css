@@ -322,7 +322,6 @@ span.dimensionimages {
 }
 
 .lemenu {
-  max-width: 500px;
   display: flex;
   justify-content: space-between;
   margin: 20px;
@@ -437,6 +436,35 @@ h3 {
   transition: transform 200ms ease-in-out;
 }
 
+@media screen and (min-width: 426px) and (max-width: 1023px) {
+  article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .lemenu {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+  }
+
+  .lemenu {
+    width: 400px;
+  }
+
+  #dessert > .lemenu {
+    width: 600px;
+  }
+}
 footer {
   background-color: #353535;
   color: white;
