@@ -9,6 +9,7 @@
 }
 
 .lemenu {
+    max-width: 500px;
     display: flex;
     justify-content: space-between;
     margin: 20px;
@@ -40,6 +41,9 @@
     margin-left: 20px;
     span {
         font-weight: bold;
+    }
+    p {
+        line-height: 1em;
     }
 }
 

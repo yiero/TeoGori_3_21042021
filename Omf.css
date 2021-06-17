@@ -8,7 +8,7 @@
 }
 body {
   margin: auto;
-  max-width: 1024px;
+  max-width: 1440px;
 }
 
 #header {
@@ -123,7 +123,6 @@ header {
 main {
   background-color: #F6F6F6;
   font-family: "Roboto";
-  max-width: 1024px;
 }
 
 #titrenav {
@@ -209,7 +208,7 @@ nav {
 }
 
 .carte1 {
-  max-width: 400px;
+  max-width: 700px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -220,6 +219,11 @@ nav {
   position: relative;
 }
 
+@media screen and (min-width: 1024px) {
+  .carte1 {
+    max-width: 490px;
+  }
+}
 .new {
   display: flex;
   justify-content: center;
@@ -306,6 +310,7 @@ span.dimensionimages {
 }
 
 .lemenu {
+  max-width: 500px;
   display: flex;
   justify-content: space-between;
   margin: 20px;
@@ -335,6 +340,9 @@ span.dimensionimages {
 }
 .platcompo span {
   font-weight: bold;
+}
+.platcompo p {
+  line-height: 1em;
 }
 
 .prixcheck {
