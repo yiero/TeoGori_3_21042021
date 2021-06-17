@@ -263,17 +263,28 @@ nav {
 .like:hover {
   cursor: pointer;
 }
-.like:hover > #coeurvide {
+.like:hover:hover {
+  cursor: pointer;
+}
+.like:hover:hover > #coeurvide {
   -webkit-text-fill-color: transparent;
 }
-.like:hover > #coeurplein > .fas {
+.like:hover:hover > #coeurplein > .fas {
   -webkit-text-fill-color: #9356DC;
+  transition: color 1000ms ease-in-out;
+  -webkit-transition: color 1000ms ease-in-out;
 }
 
 #coeurvide {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#coeurvide .far {
+  color: black;
+  background-clip: content-box;
+  background: -webkit-linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
 }
 
 #coeurplein {
@@ -284,6 +295,7 @@ nav {
 #coeurplein .fas {
   font-size: 1em;
   color: #9356DC;
+  display: block;
   background: -webkit-linear-gradient(to bottom right, #FF79DA, #9356DC);
   background-clip: text;
   -webkit-background-clip: text;

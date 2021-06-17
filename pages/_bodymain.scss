@@ -133,12 +133,17 @@ nav {
     right: 20px;
     &:hover {
         cursor: pointer;
-        & > #coeurvide {
-            -webkit-text-fill-color: transparent;
-        }
-        & > #coeurplein > .fas { 
-            -webkit-text-fill-color: $primary-color;
-        }
+        &:hover {
+            cursor: pointer;
+            & > #coeurvide {
+                -webkit-text-fill-color: transparent;
+            }
+            & > #coeurplein > .fas { 
+                -webkit-text-fill-color: $primary-color;
+                transition: color 1000ms ease-in-out;
+                -webkit-transition: color 1000ms ease-in-out;
+            }
+        } 
     } 
 }
 
@@ -146,6 +151,12 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    .far {
+        color: black;
+        background-clip: content-box;
+        background: -webkit-linear-gradient($primary-color, $secondary-color);
+        -webkit-background-clip: text;
+    }
 }
 
 #coeurplein {
@@ -155,6 +166,7 @@ nav {
     .fas {
         font-size: 1em;
         color: $primary-color;
+        display: block;
         background: -webkit-linear-gradient(to bottom right, $secondary-color, $primary-color);
         background-clip: text;
         -webkit-background-clip: text;
