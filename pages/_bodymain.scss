@@ -135,15 +135,15 @@ nav {
         cursor: pointer;
         &:hover {
             cursor: pointer;
-            & > #coeurvide {
-                -webkit-text-fill-color: transparent;
-            }
-            & > #coeurplein > .fas { 
-                -webkit-text-fill-color: $primary-color;
-                transition: color 1000ms ease-in-out;
-                -webkit-transition: color 1000ms ease-in-out;
-            }
         } 
+        &:hover > #coeurvide > .far {
+            color: transparent;
+            transition: all .2s;
+        }
+        &:hover > #coeurplein > .fas {
+            opacity: 1;
+            transition: all .2s;
+        }
     } 
 }
 
@@ -153,7 +153,7 @@ nav {
     align-items: center;
     .far {
         color: black;
-        background-clip: content-box;
+        background-clip: text;
         background: -webkit-linear-gradient($primary-color, $secondary-color);
         -webkit-background-clip: text;
     }
@@ -164,13 +164,12 @@ nav {
     justify-content: center;
     align-items: center;
     .fas {
+        opacity: 0;
         font-size: 1em;
-        color: $primary-color;
-        display: block;
-        background: -webkit-linear-gradient(to bottom right, $secondary-color, $primary-color);
+        color: transparent;
         background-clip: text;
+        background: -webkit-linear-gradient($secondary-color, $primary-color);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
     }
 }
 
