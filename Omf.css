@@ -1,14 +1,13 @@
 #entree {
-  animation: menuapparent 1000ms;
+  animation: menuapparent 2000ms ease-in-out;
 }
 
 @keyframes menuapparrent {
   0% {
-    transform: scaleY(0);
-    opacity: 0.2;
+    opacity: 0;
   }
   100% {
-    transform: scaleY(1);
+    transform: translateY(20px);
     opacity: 1;
   }
 }
