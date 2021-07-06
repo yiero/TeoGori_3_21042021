@@ -1,13 +1,20 @@
 #entree {
-        animation: menuapparent 2000ms ease-in-out;
+    animation: menuapparent 1000ms ease-in-out;
+}
+#plat {
+    animation: menuapparent 1000ms ease-in-out;
+}
+#dessert {
+    animation: menuapparent 1000ms ease-in-out;
 }
 
-@keyframes menuapparrent {
+@keyframes menuapparent {
     0% {
+        transform: translateY(20px);
         opacity: 0;
     }
     100% {
-        transform: translateY(20px);
+        transform: translateY(0px);
         opacity: 1;
     }  
 }
