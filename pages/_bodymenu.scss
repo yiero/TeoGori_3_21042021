@@ -9,7 +9,6 @@
 }
 
 .lemenu {
-    
     display: flex;
     justify-content: space-between;
     margin: 20px;
@@ -43,6 +42,9 @@
         font-weight: bold;
     }
     p {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
         line-height: 1em;
     }
 }

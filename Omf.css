@@ -374,6 +374,9 @@ span.dimensionimages {
   font-weight: bold;
 }
 .platcompo p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   line-height: 1em;
 }
 
