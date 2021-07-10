@@ -355,7 +355,7 @@ span.dimensionimages {
   cursor: pointer;
 }
 .lemenu:hover > .prixcheck > .prix > p {
-  transform: translateX(-10px);
+  transform-origin: right 50%;
 }
 .lemenu:hover > .prixcheck > .check {
   opacity: 1;
@@ -368,16 +368,14 @@ span.dimensionimages {
 }
 
 .platcompo {
-  margin-left: 20px;
+  margin: 10px 0px 10px 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 2em;
 }
 .platcompo span {
   font-weight: bold;
-}
-.platcompo p {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  line-height: 1em;
 }
 
 .prixcheck {
@@ -388,7 +386,6 @@ span.dimensionimages {
 .prix {
   display: flex;
   align-items: flex-end;
-  transition: transform 500ms ease-in-out;
   margin-right: 10px;
 }
 .prix p {
