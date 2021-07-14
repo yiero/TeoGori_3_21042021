@@ -2,34 +2,34 @@
   animation: menuapparent 1000ms ease-in-out;
 }
 .lemenu--1 {
-  animation-delay: 200ms;
+  animation-delay: 250ms;
 }
 .lemenu--2 {
-  animation-delay: 400ms;
+  animation-delay: 500ms;
 }
 .lemenu--3 {
-  animation-delay: 600ms;
+  animation-delay: 750ms;
 }
 .lemenu--4 {
-  animation-delay: 800ms;
-}
-.lemenu--5 {
   animation-delay: 1000ms;
 }
+.lemenu--5 {
+  animation-delay: 1250ms;
+}
 .lemenu--6 {
-  animation-delay: 1200ms;
+  animation-delay: 1500ms;
 }
 .lemenu--7 {
-  animation-delay: 1400ms;
+  animation-delay: 1750ms;
 }
 .lemenu--8 {
-  animation-delay: 1600ms;
+  animation-delay: 2000ms;
 }
 .lemenu--9 {
-  animation-delay: 1800ms;
+  animation-delay: 2250ms;
 }
 .lemenu--10 {
-  animation-delay: 2000ms;
+  animation-delay: 2500ms;
 }
 
 @keyframes menuapparent {

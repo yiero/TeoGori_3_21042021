@@ -2,7 +2,7 @@
     animation: menuapparent 1000ms ease-in-out;
     @for $i from 1 through 10 {
         &--#{$i} {
-            animation-delay: 200ms * $i;
+            animation-delay: 250ms * $i;
         }
     }
 }
