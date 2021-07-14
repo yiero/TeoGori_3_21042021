@@ -380,10 +380,9 @@ span.dimensionimages {
   transform-origin: right 50%;
 }
 .lemenu:hover > .prixcheck > .check {
-  opacity: 1;
-  transform-origin: right 50%;
+  transform: scaleX(1);
   width: 50px;
-  transition: 500ms ease-in-out;
+  transition: 300ms ease-in-out;
 }
 .lemenu:hover > .prixcheck > .check > i {
   transform: rotate(0deg);
@@ -411,13 +410,13 @@ span.dimensionimages {
   margin-right: 10px;
 }
 .prix p {
-  transition: transform 500ms ease-in-out;
+  transition: transform 600ms ease-in-out;
   font-weight: bold;
 }
 
 .check {
-  overflow: hidden;
-  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: right 50%;
   background-color: #99E2D0;
   border-radius: 0px 20px 20px 0px;
   justify-content: center;
@@ -426,7 +425,7 @@ span.dimensionimages {
 }
 .check i {
   transform: rotate(360deg);
-  transition: 500ms ease-in-out;
+  transition: 400ms ease-in-out;
   color: white;
 }
 
