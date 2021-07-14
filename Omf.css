@@ -1,13 +1,15 @@
-#entree {
+.anim1 {
   animation: menuapparent 1000ms ease-in-out;
 }
 
-#plat {
-  animation: menuapparent 2000ms ease-in-out;
+.anim2 {
+  animation: menuapparent 1000ms ease-in-out;
+  animation-delay: 150ms;
 }
 
-#dessert {
-  animation: menuapparent 3000ms ease-in-out;
+.anim3 {
+  animation: menuapparent 1000ms ease-in-out;
+  animation-delay: 300ms;
 }
 
 @keyframes menuapparent {
