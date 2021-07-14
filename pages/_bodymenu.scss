@@ -20,8 +20,7 @@
         cursor: pointer;
     }
     &:hover > .prixcheck > .prix {
-        & > p {
-            //transform: translateX(-10px); 
+        & > p { 
             transform-origin: right 50%;
         }
        }
