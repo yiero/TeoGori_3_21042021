@@ -1,15 +1,35 @@
-.anim1 {
+.lemenu {
   animation: menuapparent 1000ms ease-in-out;
 }
-
-.anim2 {
-  animation: menuapparent 1000ms ease-in-out;
-  animation-delay: 150ms;
+.lemenu--1 {
+  animation-delay: 200ms;
 }
-
-.anim3 {
-  animation: menuapparent 1000ms ease-in-out;
-  animation-delay: 300ms;
+.lemenu--2 {
+  animation-delay: 400ms;
+}
+.lemenu--3 {
+  animation-delay: 600ms;
+}
+.lemenu--4 {
+  animation-delay: 800ms;
+}
+.lemenu--5 {
+  animation-delay: 1000ms;
+}
+.lemenu--6 {
+  animation-delay: 1200ms;
+}
+.lemenu--7 {
+  animation-delay: 1400ms;
+}
+.lemenu--8 {
+  animation-delay: 1600ms;
+}
+.lemenu--9 {
+  animation-delay: 1800ms;
+}
+.lemenu--10 {
+  animation-delay: 2000ms;
 }
 
 @keyframes menuapparent {

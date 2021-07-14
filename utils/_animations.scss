@@ -1,14 +1,10 @@
-
-.anim1 {
+.lemenu {
     animation: menuapparent 1000ms ease-in-out;
-}
-.anim2 {
-    animation: menuapparent 1000ms ease-in-out;
-    animation-delay: 150ms;
-}
-.anim3 {
-    animation: menuapparent 1000ms ease-in-out;
-    animation-delay: 300ms;
+    @for $i from 1 through 10 {
+        &--#{$i} {
+            animation-delay: 200ms * $i;
+        }
+    }
 }
 
 @keyframes menuapparent {
