@@ -136,18 +136,18 @@ nav {
         &:hover {
             cursor: pointer;
         } 
-        &:hover > #coeurvide > .far {
+        &:hover > .coeurvide > .far {
             color: transparent;
             transition: all .2s;
         }
-        &:hover > #coeurplein > .fas {
+        &:hover > .coeurplein > .fas {
             opacity: 1;
             transition: all .2s;
         }
     } 
 }
 
-#coeurvide {
+.coeurvide {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,7 +159,7 @@ nav {
     }
 }
 
-#coeurplein {
+.coeurplein {
     display: flex;
     justify-content: center;
     align-items: center;

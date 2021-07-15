@@ -99,11 +99,11 @@ h3 {
     font-size: 1.5em;
     &:hover {
         cursor: pointer;
-        & > #coeurvide > .far {
+        & > .coeurvide > .far {
             color: transparent;
             transition: all .2s;
         }
-        & > #coeurplein > .fas {
+        & > .coeurplein > .fas {
             opacity: 1;
             transition: all .2s
         }

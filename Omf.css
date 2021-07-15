@@ -311,33 +311,33 @@ nav {
 .like:hover:hover {
   cursor: pointer;
 }
-.like:hover:hover > #coeurvide > .far {
+.like:hover:hover > .coeurvide > .far {
   color: transparent;
   transition: all 0.2s;
 }
-.like:hover:hover > #coeurplein > .fas {
+.like:hover:hover > .coeurplein > .fas {
   opacity: 1;
   transition: all 0.2s;
 }
 
-#coeurvide {
+.coeurvide {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#coeurvide .far {
+.coeurvide .far {
   color: black;
   background-clip: text;
   background: -webkit-linear-gradient(#9356DC, #FF79DA);
   -webkit-background-clip: text;
 }
 
-#coeurplein {
+.coeurplein {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#coeurplein .fas {
+.coeurplein .fas {
   opacity: 0;
   font-size: 1em;
   color: transparent;
@@ -455,11 +455,11 @@ h3 {
 #interactmenu1:hover {
   cursor: pointer;
 }
-#interactmenu1:hover > #coeurvide > .far {
+#interactmenu1:hover > .coeurvide > .far {
   color: transparent;
   transition: all 0.2s;
 }
-#interactmenu1:hover > #coeurplein > .fas {
+#interactmenu1:hover > .coeurplein > .fas {
   opacity: 1;
   transition: all 0.2s;
 }
