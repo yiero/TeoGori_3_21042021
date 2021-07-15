@@ -230,7 +230,7 @@ nav {
   margin-left: 20px;
 }
 
-.logomenu {
+#logomenu {
   color: grey;
   margin-left: 10px;
 }
@@ -320,24 +320,24 @@ nav {
   transition: all 0.2s;
 }
 
-.coeurvide {
+#coeurvide {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.coeurvide .far {
+#coeurvide .far {
   color: black;
   background-clip: text;
   background: -webkit-linear-gradient(#9356DC, #FF79DA);
   -webkit-background-clip: text;
 }
 
-.coeurplein {
+#coeurplein {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.coeurplein .fas {
+#coeurplein .fas {
   opacity: 0;
   font-size: 1em;
   color: transparent;
