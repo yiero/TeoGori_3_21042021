@@ -1,5 +1,6 @@
 .lemenu {
     animation: menuapparent 1000ms ease-in-out;
+    animation-fill-mode: forwards;
     @for $i from 1 through 10 {
         &--#{$i} {
             animation-delay: 250ms * $i;
