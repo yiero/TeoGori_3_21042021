@@ -154,7 +154,7 @@ nav {
     .far {
         color: black;
         background-clip: text;
-        background: -webkit-linear-gradient($primary-color, $secondary-color);
+        background: linear-gradient($primary-color, $secondary-color);
         -webkit-background-clip: text;
     }
 }
@@ -168,7 +168,7 @@ nav {
         font-size: 1em;
         color: transparent;
         background-clip: text;
-        background: -webkit-linear-gradient($secondary-color, $primary-color);
+        background: linear-gradient($secondary-color, $primary-color);
         -webkit-background-clip: text;
     }
 }
