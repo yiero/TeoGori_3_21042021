@@ -8,6 +8,14 @@
     border-radius: 20px 20px 0px 0px;
 }
 
+hr {
+    height: 3px;
+    background-color: $tertary-color;
+    border: none;
+    width: 40px;
+    margin: -10px 0px 10px 20px;
+}
+
 .lemenu {
     opacity: 0;
     display: flex;
