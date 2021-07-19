@@ -80,6 +80,7 @@
   src: url(Font/shrikhand/Shrikhand-Regular.ttf);
 }
 .loading {
+  color: #9356DC;
   opacity: 1;
   display: flex;
   position: absolute;
