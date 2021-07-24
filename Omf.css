@@ -166,6 +166,16 @@ header {
   padding-bottom: 20px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .loading {
+    right: 27%;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .loading {
+    right: 40%;
+  }
+}
 #headerflex {
   display: flex;
   justify-content: space-between;
